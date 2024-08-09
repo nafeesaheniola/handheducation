@@ -2,10 +2,15 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "hero-image": "url('../images/nurse.jpg')",
+        
+      },
+    },
   },
   fontFamily: {
-        almendra: ["satoshi"],
+    almendra: ["satoshi"],
   },
   plugins: [],
 };
