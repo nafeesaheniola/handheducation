@@ -1,3 +1,82 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.hero-about {
+  background-image: url("../images/aboutus.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.back{
+  background-image: url("../images/about.jpg");
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-color: rgb(39, 39, 143);
+  width: 300px;
+  height: 400px;
+}
+@media (max-width: 600px) {
+  .back{
+    width: fit-content;
+  }
+}
+.hero-client {
+  background-image: url("../images/aboutus.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+    max-width: 600px;
+    margin: auto;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    height: 420px;
+    /* border-radius: 10px; */
+    
+}
+
+img.rounded-full {
+    width: 100px;
+    height: 100px;
+}
+
+@media (max-width: 600px) {
+    .slide {
+        padding: 10px;
+    }
+
+    img.rounded-full {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.hero{
+    background-image: url(../images/bg-image.jpg);
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: normal; 
+}
+.press{
+    background-image: url(../images/press-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
