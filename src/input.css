@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hero{
+    background-image: url(../images/bg-image.jpg);
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: normal; 
+}
+.press{
+    background-image: url(../images/press-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
