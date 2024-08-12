@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .hero-about {
   background-image: url("../images/aboutus.jpg");
   background-size: cover;
@@ -66,3 +67,16 @@ img.rounded-full {
         height: 80px;
     }
 }
+
+.hero{
+    background-image: url(../images/bg-image.jpg);
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: normal; 
+}
+.press{
+    background-image: url(../images/press-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
